@@ -1,0 +1,9 @@
+I have added certificate files for IIS as given by godaddy in the same folder.
+
+ 
+
+Please follow
+
+https://in.godaddy.com/help/install-ssl-certificates-16623?locale=en
+
+to install the same.

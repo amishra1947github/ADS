@@ -1,0 +1,35 @@
+nxtdigital.in / www.nxtdigital.in (both are same site)	 aws server
+partners.nxtdigital.in (already updated) aws server
+salesopstracker.nxtdigital.in aws server
+lcoportal.nxtdigital.in 60.73
+adminportal.nxtdigital.in 73
+msoportal.nxtdigital.in	91
+lcoportal2.nxtdigital.in 74
+lcoportal3.nxtdigital.in 93
+lcoportal40.nxtdigital.in 94
+dpcollection.nxtdigital.in 91
+dpcollectionadmin.nxtdigital.in 91
+dpcollectionagent.nxtdigital.in 91
+dpportal.nxtdigital.in 91
+customercare.nxtdigital.in 77
+
+
+Portal Name	URL	SSL Certificates Valid Till
+IMCL 
+IMCL LCO Portal	https://lcoportal.incablenet.net/login.php	16-12-2019
+IMCL LCO Admin Portal	https://lcoportal.incablenet.net/adminlogin.php	16-12-2019
+IMCL Selfcare Portal	https://ccare.incablenet.net/login.php	16-12-2019 77
+IMCL Selfcare Admin Portal	https://ccareadmin.incablenet.net/login.php	16-12-2019
+IMCL Branch Collection Portal	https://dpcollectionbranch.incablenet.net/	16-12-2019
+IMCL Admin Collection Portal	https://dpcollectionadmin.incablenet.net/adminlogin.php	16-12-2019
+NXT
+NXT LCO Portal	https://lcoportal.nxtdigital.in/login.php	28-09-2021
+NXT LCO Portal 2	https://lcoportal.nxtdigital2.in/login.php	28-09-2021
+NXT LCO Portal 3	https://lcoportal.nxtdigital3.in/login.php	28-09-2021
+NXT LCO Portal 40	https://lcoportal.nxtdigital40.in/login.php	28-09-2021
+NXT LCO Admin Portal	https://adminportal.nxtdigital.in/adminlogin.php	28-09-2021
+NXT Selfcare Portal	https://customercare.nxtdigital.in/login.php	29-09-2021
+NXT DPO Portal	https://dpportal.nxtdigital.in/login.php	28-09-2021
+NXT MSO Portal	https://msoportal.nxtdigital.in/login.php	28-09-2021
+NXT Branch Collection Portal	https://dpcollection.nxtdigital.in/	28-09-2021
+NXT Admin Collection Portal	https://dpcollectionadmin.nxtdigital.in/
