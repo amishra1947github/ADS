@@ -1,0 +1,14 @@
+# forward all logs to Fortinet-host. Change 192.168.0.1 to the IP of your Fortinet-hosts host
+$template Fortinet,"<%PRI%>%HOSTNAME%%TIMESTAMP%%syslogtag%%msg%\""
+*.* @172.21.50.14;Fortinet
+
+# Log each remote host into it's own directory and then discard remote server logs:
+$template RemoteHost,"/var/log/remote-hosts/%HOSTNAME%/%HOSTNAME%-%$YEAR%%$MONTH%%$DAY%.log"
+
+#if rule to call RemoteHost template
+if ($hostname != '127.0.0.1') then ?RemoteHost
+& stop
+
+
+# Provides UDP forwarding. The IP is the server's IP address
+*.* @192.168.1.1:514 

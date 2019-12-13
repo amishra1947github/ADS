@@ -1,0 +1,31 @@
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:08 AM
+	STARTING Disk Agent for gil-nas01.grant-hits.local:/F "F: [exadatanfs]".
+
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:08 AM
+	VSS option was specified. Attempting to create snapshot.
+
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:08 AM
+	Another Data Protector process is in snapshot set definition phase. Waiting to complete.
+
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:09 AM
+	Entering snapshot definition phase.
+
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:09 AM
+	Volume 'F:\' successfully added to snapshot set. The volume is now locked.
+
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:09 AM
+	Exiting snapshot definition phase.
+
+[Major] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:16 AM
+[81:1009] 	It was not possible to create volume snapshot for 'F:\'. System error: 'VSS Snapshot creation failed'.
+
+[Critical] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:16 AM
+	Fallback to legacy filesystem backup was not allowed. Aborting the backup.
+
+[Critical] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:16 AM
+[81:52]  	/F
+	Not a valid mount point => aborting.
+
+[Normal] From: VBDA@gil-nas01.grant-hits.local "F: [exadatanfs]"  Time: 3/22/2017 12:01:16 AM
+	ABORTED Disk Agent for gil-nas01.grant-hits.local:/F "F: [exadatanfs]".
+

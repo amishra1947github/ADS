@@ -1,0 +1,9 @@
+172.21.50.201/202/203/204/205 passwd change active DBA Server 
+
+172.21.50.201 Alpha@<99$
+172.21.50.202 Alpha@<99$
+172.21.50.203 Alpha@<99$
+172.21.50.204 Alpha@<99$
+172.21.50.205 Alpha@<99$
+
+AllowUsers admin oracle  (default Sudo login for ssh)

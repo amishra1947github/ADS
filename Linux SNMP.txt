@@ -1,0 +1,58 @@
+rocommunity GhitsRo
+com 2sec notConfigUser default GhitsRo
+view all included .1
+access notConfigGroup "" any noauth exact all none none
+smuxpeer .1.3.6.1.4.1.674.10892.1
+trapsink 172.21.70.10
+
+
+8433722657
+
+subscription-manager list
+
+Please re-register the system by executing below commands and let me know the results :
+
+# subscription-manager clean
+# subscription-manager register
+# subscription-manager attach --auto
+# subscription-manager list --consumed
+# subscription-manager list
+
+# yum clean all
+# yum repolist
+
+yum -y install net-snmp net-snmp-utils
+service snmpd restart
+
+subscription-manager register --username indusind_media --password Redhat123 --auto-attach
+
+adding subscription to vm with the command
+
+subscription-manager clean
+
+subscription-manager register (( with the portal login credential))
+indusind_media
+Redhat123
+
+subscription-manager list --available (( no of list available ))
+
+subscription-manager attach --pool=8a85f9865ead9f33015eae439a5d4c0f  ((( pool id for hypervisor 6 ))
+
+ subscription-manager attach --pool=8a85f9815eae180b015eae52f9e41e1a  ((( pool id for hypervisor 7 ))
+
+
+ subscription-manager  refresh
+
+subscription-manager list --consumed
+
+
+172.21.30.41/42
+
+pool id :- 8a85f9815e5ff093015e60585e326a1a
+
+
+
+
+
+
+

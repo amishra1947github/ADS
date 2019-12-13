@@ -1,0 +1,35 @@
+H8AAA-DB
+
+The system has been registered with ID: 435c6043-385d-4bb5-ab65-b0e63147d5e1
+
+Pool ID:             8a85f9815a274fa3015a27bb12326fe8
+
+
+H9AAA-APP
+
+The system has been registered with ID: 982f04b9-1459-403d-9010-854443a7fd8f
+
+Pool ID:             8a85f9815a274fa3015a27bb12326fe8
+
+H8-LOG
+
+The system has been registered with ID: 266b0626-a826-4b54-9e5d-5cbd6ea99749
+
+Pool ID:             8a85f9815a274fa3015a27bb12326fe8
+
+
+
+define(`SMART_HOST',`[smtp.gmail.com]')dnl
+define(`RELAY_MAILER_ARGS', `TCP $h 587')dnl
+define(`ESMTP_MAILER_ARGS', `TCP $h 587')dnl
+define(`confAUTH_OPTIONS', `A p')dnl
+TRUST_AUTH_MECH(`EXTERNAL DIGEST-MD5 CRAM-MD5 LOGIN PLAIN')dnl
+define(`confAUTH_MECHANISMS', `EXTERNAL GSSAPI DIGEST-MD5 CRAM-MD5 LOGIN PLAIN')dnl
+FEATURE(`authinfo',`hash -o /etc/mail/authinfo/gmail-auth.db')dnl
+
+
+
+echo "This is the message body" | mutt -a file.to.attach -s "subject of message" recipient@domain.com
+
+
+echo 'These are contents of my mail' | mailx -s 'This is my email subject' -a /home/test.txt server.support@nxtdigital.in

@@ -1,0 +1,48 @@
+system identity: 872bccd8-ecd9-47f8-9e9e-fc358b80c649
+name: GIL-WEBH6-LCO01
+org name: 6658951
+org ID: 6658951
+
+The system has been registered with ID: 4d052569-e106-4a9a-9a91-fa3343d30e56
+
+
+ 4d052569-e106-4a9a-9a91-fa3343d30e56
+   
+
+
+e703f744-3651-4ebb-8a40-0169f71c8bc1
+GIL-VMMGT01.grant-hits.local
+
+60.73 --done
+
+
+ 8a85f9815e5ff093015e605b22186be5
+
+
+
+
+    [vmware]
+    type=esx
+    server=vCenter.domain.com
+    username=vCenterusername
+    password=vCenterpassword
+    owner=org ID    >> output of # subscription-manager identity
+    env=Library     >> keep as it is
+    hypervisor_id=hostname    >> keep as it is
+
+
+
+
+
+-----------------------------------------------------------
+
+[root@GIL-WEBH6-LCO01 ~]# subscription-manager identity
+system identity: 2c277b38-aef4-4047-a034-80c7c3cff3e8
+name: GIL-WEBH6-LCO01
+org name: 6658951
+org ID: 6658951
+
+
+
+
+

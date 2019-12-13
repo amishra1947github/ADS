@@ -1,0 +1,39 @@
+E Drive
+E:\>dir
+ Volume in drive E is DATA
+ Volume Serial Number is 9075-A097
+
+ Directory of E:\
+
+12/11/2014  06:25 PM    <DIR>          Amit
+08/13/2014  12:28 PM    <DIR>          Amresh
+07/16/2015  02:47 PM    <DIR>          Ankul
+11/20/2015  02:13 PM    <DIR>          Bakul
+12/02/2015  04:49 PM    <DIR>          Deepak
+06/17/2013  01:46 PM    <DIR>          Dilip
+08/06/2015  01:23 PM    <DIR>          FAWBackup
+10/17/2016  12:30 PM    <DIR>          Finance
+01/02/2015  02:37 PM    <DIR>          Hasmukh
+05/23/2013  08:50 PM    <DIR>          Hitesh
+06/21/2017  04:10 PM    <DIR>          htmt-secretarial
+12/10/2014  04:45 PM    <DIR>          HVL Internal Auditors
+06/12/2013  06:15 PM    <DIR>          Import_Export
+07/02/2015  03:13 PM       606,175,744 integra.bak
+02/24/2016  05:50 PM    <DIR>          IntegraV111APP
+11/27/2013  06:24 PM    <DIR>          Mail_BKP
+08/18/2014  12:17 PM    <DIR>          Mayanka
+06/12/2013  07:59 PM    <DIR>          Miles
+05/27/2013  04:08 PM    <DIR>          MwIntegra
+05/23/2013  09:09 PM    <DIR>          Nikesh
+06/12/2013  06:11 PM    <DIR>          Package
+01/18/2016  04:10 PM    <DIR>          Shruti
+05/23/2013  08:13 PM    <DIR>          taldata
+06/21/2017  12:14 PM    <DIR>          Tejas Shah
+12/04/2014  03:56 PM    <DIR>          TestIntegraV111APP
+07/15/2013  05:08 PM    <DIR>          Vanish
+05/11/2016  11:34 PM    <DIR>          Vinod
+06/12/2013  07:03 PM    <DIR>          Webdevelopment111
+               1 File(s)    606,175,744 bytes
+              27 Dir(s)   9,110,867,968 bytes free
+
+

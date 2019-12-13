@@ -1,0 +1,14 @@
+mount -t cifs //172.21.60.87/Mobiotics1 /var/local/hits -o username=administrator,password=p@ssw0rd,domain=GIL-NAS01,file_mode=0777,dir_mode=0777
+
+\\172.21.70.4\Backup Test
+
+
+mount -t cifs //172.21.70.4/BackupT /test -o username=server.support,password=abc@123,domain=Grant-hits.local,file_mode=0777,dir_mode=0777
+
+
+dd if=backup_7-2017.img of=/dev/sda
+
+cellmonitor
+
+
+mount -t cifs //172.21.60.87/appdata /mnt/Appdata -o username=administrator,password=p@ssw0rd,domain=GIL-NAS01,file_mode=0777,dir_mode=0777

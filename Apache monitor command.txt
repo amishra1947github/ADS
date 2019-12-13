@@ -1,0 +1,25 @@
+Hi Guys,
+
+Please have the portal server 172.21.60.74 proactively monitored and notify to respective concerned person through mail/phone immediately.
+
+1) Apache Process Monitor:
+
+watch -n 1 "echo -n 'Apache Processes: ' && ps -C httpd --no-headers | wc -l && free -m"
+
+2) Tcp Time_Wait Monitor:
+
+watch -n 1 "netstat -nat | awk '{print $6}' |grep TIME_WAIT | sort | uniq -c | sort -n |wc -l"
+
+
+3) To check no of incoming requests:
+
+netstat -anp | grep :443
+
+4) show top 10 process that using the most memory:
+
+ps aux --sort=-%mem | awk 'NR<=10{print $0}'
+
+5) Apache ssl error log:
+
+tail -f ssl_error_log
+

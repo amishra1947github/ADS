@@ -1,0 +1,5 @@
+https://access.redhat.com/articles/1749293
+
+https://www.redhat.com/archives/rhsa-announce/2016-January/msg00033.html
+
+https://rhn.redhat.com/errata/RHSA-2016-0185.html

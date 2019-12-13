@@ -1,0 +1,16 @@
+ useradd ghits
+[root@GIL-WEBH7-UAT01 ~]# useradd admin
+[root@GIL-WEBH7-UAT01 ~]# passwd ghits
+Changing password for user ghits.
+New password:
+BAD PASSWORD: The password fails the dictionary check - it is based on a dictionary word
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[root@GIL-WEBH7-UAT01 ~]# passwd admin
+Changing password for user admin.
+New password:
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[root@GIL-WEBH7-UAT01 ~]# usermod -G root ghits
+[root@GIL-WEBH7-UAT01 ~]# usermod -G root admin
+[root@GIL-WEBH7-UAT01 ~]#

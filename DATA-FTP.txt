@@ -1,0 +1,8 @@
+IP :- 172.21.30.28
+username :- DATA-FTP
+password :- Grant@3507
+
+database name :- DATA_FTP
+username :- Ftpuser
+password :- Grant@3507
+

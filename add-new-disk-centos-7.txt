@@ -1,0 +1,68 @@
+  349  fdisk -l
+  350  free -h
+  351  fdisk -l
+  352  echo "- - -" > /sys/class/scsi_host/host#/scan
+  353  fdisk -l
+  354  echo "- - -" > /sys/class/scsi_host/host0/scan
+  355  fdisk -l
+  356  tail -f /var/log/message
+  357  tail -f /var/log/messages
+  358   ls -l /sys/class/scsi_host/
+  359  grep mpt /sys/class/scsi_host/host?/proc_name
+  360  grep mpt /sys/class/scsi_host/host0/proc_name
+  361  grep mpt /sys/class/scsi_host/host1/proc_name
+  362  grep mpt /sys/class/scsi_host/host2/proc_name
+  363   ls -l /sys/class/scsi_host/
+  364  grep mpt /sys/class/scsi_host/host?/proc_name
+  365  echo "- - -" > /sys/class/scsi_host/host#/scan
+  366  echo "- - -" > /sys/class/scsi_host/host0/scan
+  367  echo "- - -" > /sys/class/scsi_host/host1/scan
+  368  echo "- - -" > /sys/class/scsi_host/host2/scan
+  369  fdisk -l
+  370  ls /sys/class/scsi_host0
+  371  ls /sys/class/scsi_host/host0/
+  372  ls /sys/class/scsi_host/host
+  373  ls /sys/class/scsi_host/
+  374  echo "- - -" > /sys/class/scsi_host/host0/scan
+  375  echo "- - -" > /sys/class/scsi_host/host2/scan
+  376  echo "- - -" > /sys/class/scsi_host/host1/scan
+  377  fdisk -l
+  378  tail -f /var/log/messages
+  379  ls /sys/class/scsi_device/
+  380  echo 1 > /sys/class/scsi_device/0\:0\:0\:0/device/rescan
+  381  echo 1 > /sys/class/scsi_device/2\:0\:0\:0/device/rescan
+  382  fdisk -l
+  383  df -h
+  384  fdisk -l
+  385  fdisk -l |grep /dev/sda
+  386  fdisk /dev/sda
+  387  service httpd status
+  388  fdisk -l
+  389  fdisk /dev/sda
+  390  partprobe
+  391  fdisk /dev/sda
+  392  fdisk -l
+  393  pvcreate /dev/sda3
+  394  pvdisplay
+  395   vgextend centos /dev/sda3
+  396  vgdisplay
+  397  vgextend rhel /dev/sda3
+  398  vdisplay
+  399  vg
+  400  vgdisplay
+  401  lvextend -L +10G /dev/mapper/rhel-root
+  402  vgdisplay
+  403  lvextend -L +8G /dev/mapper/rhel-root
+  404  xfs_growfs /dev/mapper/rhel-root
+  405  df -h
+  406  xfs_growfs /dev/mapper/rhel-root
+  407  df -h
+  408  xfs_growfs /dev/mapper/rhel-root
+  409  pvs
+  410  resize2fs /dev/mapper/rhel-root
+  411  pvs
+  412  df -h
+  413  histro
+  414  history
+
+https://linoxide.com/linux-how-to/add-new-disk-centos-7-without-rebooting/

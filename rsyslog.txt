@@ -1,0 +1,43 @@
+rsyslog configuration step
+
+# yum remove mysql mysql-server
+
+ mv /var/lib/mysql /var/lib/mysql_old_backup
+
+ service iptables stop
+
+yum install mysql mysql-server
+
+
+ rpm -qa mysql*
+
+/etc/init.d/mysqld start
+
+ cd /var/lib/mysql
+
+/etc/init.d/mysqld status
+
+chkconfig mysqld on
+
+mysqladmin -u root password 'p@ssw0rd'
+
+ mysql -u root -p
+
+http://172.21.60.172/test.php   http://172.21.60.172/loganalyzer   http://172.21.60.172/loganalyzer/intall.php
+
+ vi /usr/share/doc/rsyslog-mysql-5.8.10/createDB.sql
+
+
+ mysql -u root -p < /usr/share/doc/rsyslog-mysql-5.8.10/createDB.sql
+
+GRANT ALL ON rsyslogdb.* TO rsysloguser@localhost IDENTIFIED BY 'p@ssw0rd';
+
+flush privileges;
+exit
+
+http://172.21.60.172/loganalyzer/src ---webloging pages
+admin
+p@ssw0rd
+
+
+mysqldump -u root -p rsyslogdb SystemEvents > /home/SystemEvents.txt

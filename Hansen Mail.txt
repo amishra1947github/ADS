@@ -1,0 +1,9 @@
+Hello Sherman,
+
+We are planning to do the hardening of windows operating System For ICC Servers.
+We are planning to update the servers on latest level of security Patches, 
+I am attaching the list of patches kindly review it and suggest will it cause to your application.
+
+
+Regards
+Jitendra Rane.

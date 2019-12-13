@@ -1,0 +1,27 @@
+subscription-manager register --username pratiksarangdhar --password lumia720 --auto-attach
+
+
+subscription-manager register
+
+
+subscription-manager refresh
+
+
+subscription-manager attach --auto
+
+
+The system has been registered with ID: 7b8b4094-f3b8-4dfd-a902-33e61fc1197b
+
+
+
+log server:-
+
+[root@H8-LOG ~]# subscription-manager register --username pratiksarangdhar --password lumia720 --auto-attach
+Registering to: subscription.rhn.redhat.com:443/subscription
+The system has been registered with ID: d7963560-01e3-4999-84b1-2de58f054f74
+
+Installed Product Current Status:
+Product Name: Red Hat Enterprise Linux Server
+Status:       Not Subscribed
+
+Unable to find available subscriptions for all your installed products.

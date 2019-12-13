@@ -1,0 +1,28 @@
+D:\Program Files\OmniBack\bin>omnicheck.exe -version
+HP Data Protector A.09.00: OMNICHECK, internal build 104, built on Friday, July
+31, 2015, 2:58 AM
+
+D:\Program Files\OmniBack\bin>omnicheck.exe -patches
+Patch level         Patch description
+===========================================
+DPWIN_00787(BDL904) Core Component
+DPWIN_00787(BDL904) Core of Integrations component
+DPWIN_00788(BDL904) Cell Manager Component
+DPWIN_00789(BDL904) Disk Agent
+DPWIN_00796(BDL904) General Media Agent
+DPWIN_00797(BDL904) User Interface
+DPWIN_00800(BDL904) Virtual Environment Integration
+DPWIN_00798(BDL904) English Documentation (Guides, Help)
+DPWIN_00787(BDL904) Pegasus Libraries
+DPWIN_00787(BDL904) Core Technology Stack
+DPWIN_00788(BDL904) Cell Server Technology Stack
+DPWIN_00788(BDL904) Application Server Technology Stack
+DPWIN_00788(BDL904) Web Services
+DPWIN_00788(BDL904) Java Runtime Environment Technology Stack
+DPWIN_00788(BDL904) Job Control Engine Service Dispatcher
+DPWIN_00788(BDL904) Job Control Engine Service Registry
+Number of patches found: 16.
+
+
+
+
